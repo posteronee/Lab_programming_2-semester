@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab1/header.cpp
+cmath
+-
+header.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab1/header.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab1/header.h
+cmath
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab1/main.cpp
+iostream
+-
+locale
+-
+header.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab1/header.h
+
