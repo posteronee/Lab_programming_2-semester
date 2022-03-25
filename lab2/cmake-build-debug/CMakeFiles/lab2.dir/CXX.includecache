@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/lab2.cpp
+iostream
+-
+lab2.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/lab2.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/lab2.h
+cmath
+-
+vector
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/menu.cpp
+menu.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/menu.h
+iostream
+-
+locale
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/menu.h
+lab2.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/lab2.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/main.cpp
+iostream
+-
+menu.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/menu.h
+cmake-build-debug/menu.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/menu.h
+
