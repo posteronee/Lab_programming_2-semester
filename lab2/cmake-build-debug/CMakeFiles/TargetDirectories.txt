@@ -1,3 +1,0 @@
-/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/nikitaivanov/Desktop/прога 2 сем/lab2/cmake-build-debug/CMakeFiles/lab2_.dir
