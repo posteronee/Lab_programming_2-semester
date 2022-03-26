@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/lab3.cpp
+lab3.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/lab3.h
+iostream
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/lab3.h
+vector
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/main.cpp
+iostream
+-
+menu.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/menu.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/menu.cpp
+menu.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/menu.h
+iostream
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/menu.h
+lab3.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab3/lab3.h
+
