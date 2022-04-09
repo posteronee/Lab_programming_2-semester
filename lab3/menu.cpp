@@ -18,10 +18,10 @@ Menu::Menu() {
 void Menu::choice() {
 
     //2
-    Square s1,s2;
+    Square s1, s2, s3;
     float side;
     float angle;
-    float x,y;
+    float x, y;
     float s;
     float input;
     vector<float> v1;
@@ -52,7 +52,8 @@ void Menu::choice() {
             s1.setSide(side);
             cout << "Введите вещественное число\n";
             cin >> s;
-            s1 * s;
+            s3 = s1 * s;
+            cout << s3 << endl;
             break;
 
         case 3:
@@ -65,7 +66,8 @@ void Menu::choice() {
                 cin >> input;
                 v1.push_back(input);
             }
-            s1 + v1;
+            s3 = s1 + v1;
+            cout << s3.getX() << " " << s3.getY();
             break;
 
         case 4:

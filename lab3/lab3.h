@@ -1,4 +1,3 @@
-
 #ifndef LAB3_LAB3_H
 #define LAB3_LAB3_H
 #include <vector>
@@ -30,8 +29,9 @@ public:
     friend bool operator != (Square S1 , Square S2);
     friend bool operator > (Square S1 , Square S2);
     friend bool operator < (Square S1 , Square S2);
-    friend void operator * (Square S1 , float a);
-    friend void operator + (Square S1 , vector<float> a);
+    friend Square operator * (Square const&s, float a);
+    friend Square operator + (Square const&s, vector<float>a);
+    friend ostream& operator << (ostream &out, const Square&s);
 
 };
 

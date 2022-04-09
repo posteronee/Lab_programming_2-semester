@@ -3,6 +3,8 @@
 using namespace std;
 
 //2
+
+
 void Square::setSide(const float &a) {
     side = a;
 }
@@ -60,16 +62,22 @@ bool operator < (Square S1 , Square S2){
     return (S1.side * S1.side < S2.side * S2.side);
 };
 
-void operator * (Square S1 , float a){
-    S1.side *= a;
-    // Старое значение * вещ. число (getSide), затем запись через setSide
-    cout << S1.side;
+Square operator * (Square const&s, float a){
+    Square s1{};
+    s1.side = s.side * a;
+    return s1;
 }
 
-void operator + (Square S1 , vector<float> a){
-    S1.x += a[0];
-    S1.y += a[1];
-    cout << S1.x << " " << S1.y;
+Square operator+(const Square &s, vector<float> v) {
+    Square s3{};
+    s3.x = s.x + v[0];
+    s3.y = s.y + v[1];
+    return s3;
+}
+
+ostream &operator<<(ostream &out, const Square &s) {
+    out << s.side;
+    return out;
 }
 
 
