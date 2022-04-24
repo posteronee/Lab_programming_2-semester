@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Choices.cpp
+iostream
+-
+Choices.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Choices.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Choices.h
+Rectangle.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Rectangle.h
+Trapezoid.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Trapezoid.h
+vector
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Rectangle.h
+interface.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/interface.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/Trapezoid.h
+interface.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/interface.h
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab4/interface.h
+clocale
+-
+
