@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab6/algorithm.cpp
+iterator
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab6/algorithm.h
+iostream
+-
+vector
+-
+cmath
+-
+
+/Users/nikitaivanov/Desktop/прога 2 сем/lab6/main.cpp
+iostream
+-
+vector
+-
+cmath
+-
+algorithm.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab6/algorithm.h
+Predicts.h
+/Users/nikitaivanov/Desktop/прога 2 сем/lab6/Predicts.h
+
