@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/nikitaivanov/CLionProjects/lab7/CircularBuffer.h
+
+/Users/nikitaivanov/CLionProjects/lab7/main.cpp
+iostream
+-
+ostream
+-
+iterator
+-
+algorithm
+-
+CircularBuffer.h
+/Users/nikitaivanov/CLionProjects/lab7/CircularBuffer.h
+
